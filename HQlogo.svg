@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="623" height="282.5" viewBox="0 0 623 282.5">
+  <defs>
+    <filter id="Stephen" x="0" y="0" width="509" height="161.5" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur"/>
+      <feFlood flood-opacity="0.635"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Collective" x="27" y="121.5" width="596" height="161" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur-2"/>
+      <feFlood flood-opacity="0.82"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_7" data-name="Group 7" transform="translate(702.314 -38)">
+    <g id="Group_6" data-name="Group 6">
+      <g transform="matrix(1, 0, 0, 1, -702.31, 38)" filter="url(#Stephen)">
+        <text id="Stephen-2" data-name="Stephen" transform="translate(0.5 129)" fill="#fff" font-size="135" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0">Stephen</tspan></text>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -702.31, 38)" filter="url(#Collective)">
+        <text id="Collective-2" data-name="Collective" transform="translate(27.5 251)" fill="#fff" font-size="135" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0">Collective</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
