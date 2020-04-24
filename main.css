@@ -7,7 +7,29 @@ body, html {
   * {
     box-sizing: border-box;
   }
-  
+  .contact{
+    text-align:center; 
+    font-size: 20px;
+  }
+  .summary{
+    width:60%; 
+    font-size:20px; 
+    margin:0 auto;
+    margin-top:35px; 
+    text-align: left;
+  }
+  .borderOne{
+    border-top:4px white solid; 
+    width:60%; 
+    margin:0 auto;
+    margin-top:-10px;
+  }
+  .bordertwo{
+    border-top:4px white solid; 
+    width:60%; 
+    margin:0 auto;
+    margin-top:-10px;
+  }
   .bg-image {
     /* The image used */
     background-image: url("./mainBackground.png");
@@ -44,3 +66,137 @@ body, html {
       height:230px;
       width:650px;
   }
+
+  /* ----------- iPhone X ----------- */
+
+/* Portrait */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 812px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) { 
+  .bg-text{
+    margin-top:750px
+  }
+  .bg-image{
+          /* The image used */
+    background-image: url("./mainBackground.png");
+    /* Add the blur effect */
+    filter: blur(12px);
+    -webkit-filter: blur(12px);
+    
+    /* Full height */
+    height: 300vh; 
+    width:100vh;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .comingSoon{
+    font-size: 80px;
+    margin: 0 auto;
+    /* text-align: center; */
+    margin-left: 100px;
+    width: 200%;
+    margin-top:300%
+  }
+  .borderOne{
+    border-top: 4px white solid;
+    width: 210%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-left: 90px;
+  }
+  .bordertwo{
+    border-top: 4px white solid;
+    width: 210%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-left: 90px;
+    margin-bottom:300%;
+  }
+  .summary{
+    font-size: 30px;
+    margin: 0 auto;
+    /* text-align: center; */
+    margin-left: 50px;
+    width: 250%;
+    margin-top: -100px;
+  }
+  .contact{
+    text-align:left;
+    margin-left:100px;
+    font-size: 25px;
+    width:200%
+  }
+}
+
+
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .bg-text{
+      margin-top:750px
+    }
+    .bg-image{
+            /* The image used */
+      background-image: url("./mainBackground.png");
+      /* Add the blur effect */
+      filter: blur(12px);
+      -webkit-filter: blur(12px);
+      
+      /* Full height */
+      height: 300vh; 
+      width:120vh;
+      /* Center and scale the image nicely */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .comingSoon{
+      font-size: 80px;
+      margin: 0 auto;
+      /* text-align: center; */
+      margin-left: 100px;
+      width: 200%;
+      margin-top:200%
+    }
+    .borderOne{
+      border-top: 4px white solid;
+      width: 210%;
+      margin: 0 auto;
+      margin-top: 10px;
+      margin-left: 90px;
+    }
+    .bordertwo{
+      border-top: 4px white solid;
+      width: 210%;
+      margin: 0 auto;
+      margin-top: 10px;
+      margin-left: 90px;
+      margin-bottom:350%;
+    }
+    .summary{
+      font-size: 30px;
+      margin: 0 auto;
+      /* text-align: center; */
+      margin-left: 50px;
+      width: 250%;
+      margin-top:-450px;
+    }
+    .contact{
+      text-align:left;
+      margin-left:100px;
+      font-size: 25px;
+      width:200%
+    }
+}
+
+
