@@ -73,7 +73,7 @@ body, html {
 @media only screen 
 and (min-device-width: 375px) 
 and (max-device-width: 812px) 
-and (-webkit-min-device-pixel-ratio: 1){ 
+and (-webkit-min-device-pixel-ratio: 3){ 
   .bg-text{
     margin-top:750px
   }
@@ -93,7 +93,6 @@ and (-webkit-min-device-pixel-ratio: 1){
     background-size: cover;
   }
   .comingSoon{
-    font-size: 80px;
     margin: 0 auto;
     /* text-align: center; */
     margin-left: 100px;
@@ -138,7 +137,7 @@ and (-webkit-min-device-pixel-ratio: 1){
 @media only screen 
   and (min-device-width: 414px) 
   and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 1){ 
+  and (-webkit-min-device-pixel-ratio: 3){ 
     .bg-text{
       margin-top:750px
     }
