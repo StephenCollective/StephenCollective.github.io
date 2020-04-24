@@ -73,8 +73,7 @@ body, html {
 @media only screen 
 and (min-device-width: 375px) 
 and (max-device-width: 812px) 
-and (-webkit-min-device-pixel-ratio: 3)
-and (orientation: portrait) { 
+and (-webkit-min-device-pixel-ratio: 1){ 
   .bg-text{
     margin-top:750px
   }
@@ -139,8 +138,7 @@ and (orientation: portrait) {
 @media only screen 
   and (min-device-width: 414px) 
   and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+  and (-webkit-min-device-pixel-ratio: 1){ 
     .bg-text{
       margin-top:750px
     }
