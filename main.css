@@ -105,14 +105,14 @@ and (-webkit-min-device-pixel-ratio: 3){
     width: 210%;
     margin: 0 auto;
     margin-top: 10px;
-    margin-left: 90px;
+    margin-left: 60px;
   }
   .bordertwo{
     border-top: 4px white solid;
     width: 210%;
     margin: 0 auto;
     margin-top: 10px;
-    margin-left: 90px;
+    margin-left: 60px;
     margin-bottom:300%;
   }
   .summary{
