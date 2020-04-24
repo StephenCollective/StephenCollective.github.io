@@ -93,9 +93,10 @@ and (-webkit-min-device-pixel-ratio: 3){
     background-size: cover;
   }
   .comingSoon{
+    font-size:60px;
     margin: 0 auto;
     /* text-align: center; */
-    margin-left: 100px;
+    margin-left: 80px;
     width: 200%;
     margin-top:300%
   }
