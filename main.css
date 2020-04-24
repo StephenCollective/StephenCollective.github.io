@@ -120,7 +120,7 @@ and (orientation: portrait) {
     font-size: 30px;
     margin: 0 auto;
     /* text-align: center; */
-    margin-left: 50px;
+    margin-left: 25px;
     width: 250%;
     margin-top: -100px;
   }
